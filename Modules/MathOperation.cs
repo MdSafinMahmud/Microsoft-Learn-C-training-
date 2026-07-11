@@ -24,3 +24,8 @@ Console.WriteLine(decimalQuotient2 + decimalQuotient1);
 // int decimalQuotientC = 7.0m / 5.0m;
 // decimal decimalQuotientD = 7 / 5;
 // Console.WriteLine(decimalQuotientA + decimalQuotientB + decimalQuotientC + decimalQuotientD);
+
+int first = 7;
+int second = 5;
+decimal quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
